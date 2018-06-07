@@ -1,0 +1,9 @@
+.terminal-main {
+  display: block;
+  overflow: visible;
+  position: relative;
+  margin: 1px;
+  border: 1px gray solid;
+  box-shadow: none;
+  padding: 0px;
+}
