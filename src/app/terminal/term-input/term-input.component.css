@@ -1,0 +1,14 @@
+.term-input {
+    background-color: #292D3E;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+#command-input {
+    width: 100%;
+    background-color: #292D3E;
+    border: none;
+    color: white;
+}

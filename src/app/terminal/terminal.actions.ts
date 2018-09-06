@@ -1,0 +1,1 @@
+export const SUBMIT_INPUT = 'SUBMIT_INPUT';

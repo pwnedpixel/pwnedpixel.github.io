@@ -1,8 +1,18 @@
 <div class="terminal-body">
-    <p>tasfaasdflj  lsklj lkf jslj lksje f</p>
-    <p>tasfaasdflj  aaaaaaaaajslj lksje f</p>
-    <p>tasfasssssssssssssj lkf jslj lksje f</p>
-    <p>tasfaasdflj  lsklffasfasfasfe f</p>
-    <p>tasfaasdflj  lsklj lkf jasf  lsklj lkf jslj lksje f</p>
-    <p>tasfaasdflj  lsklj lasfsje f</p>
+    <div *ngFor="let command of commands">
+        <div class="row">
+            <div class="col-sm-12">
+                <span id="user">user123</span>
+                <span id="ip">@127.0.0.1: </span>
+                <span id="command-input">{{command.input}}</span>
+            </div>
+        </div>
+        <p id="command-output" *ngFor="let line of command.output" class="{{line.style}}">{{line.text}}</p>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <span id="user">user123</span>
+            <span id="ip">@127.0.0.1:</span>
+        </div>
+    </div>
 </div>

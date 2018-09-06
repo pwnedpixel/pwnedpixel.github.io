@@ -6,6 +6,8 @@ import { TerminalModule } from './terminal/terminal.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './terminal/header/header.component';
+import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,8 @@ import { HeaderComponent } from './terminal/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
     TerminalModule
   ],
   providers: [],
