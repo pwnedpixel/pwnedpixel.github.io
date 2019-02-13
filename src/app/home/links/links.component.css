@@ -1,0 +1,13 @@
+.links {
+	margin-bottom: 30px;
+}
+a {
+	margin-left:10px;
+}
+
+.breadcrumb {
+	background-color: transparent;
+	font-size: 1.2em;
+	padding: 0px;
+	margin: auto;
+}

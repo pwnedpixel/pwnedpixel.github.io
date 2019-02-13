@@ -1,4 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/purple-green.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
 body {
-    background: rgb(83, 83, 83);
+    background: rgb(177, 224, 255);
+    margin: 0px;
+    color: rgb(66,66,66);
+}
+
+mat-card {
+    margin-bottom: 30px;
+}
+
+.no-margin {
+    margin:0px;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
 }

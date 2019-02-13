@@ -40,3 +40,4 @@ testem.log
 Thumbs.db
 
 website.code-workspace
+.vscode/settings.json
