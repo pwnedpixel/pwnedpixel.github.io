@@ -1,0 +1,61 @@
+{
+	"projects":[
+		{
+			"title":"Braille Printer",
+			"subtitle":"Hackwestern 3 | 2016",
+			"image":"./assets/braille-printer.png",
+			"info":[
+				"The printer will allow you to type a string (word) on a keyboard. The raspberry pi then identifies what was entered and then controls the solenoids and servo to pierce the paper. The solenoids do the \"printing\" while the servo moves the paper.",
+				"Using a raspberry pi B+, we created a script in python that would recognize all keyboard characters (inputted as a string) and output the corresponding Braille code. The raspberry pi is connected to 4 circuits with transistors, diodes and solenoids/servo motor. These circuits control the how the paper is punctured (printed) and moved."
+			]
+		},
+		{
+			"title":"Depository Repository",
+			"subtitle":"Hackwestern 5 | 2018",
+			"image":"./assets/repo-depo.png",
+			"info":[
+				"Depository Repository is an Airbnb style app that allows users to rent space from each other.",
+				"Depository Repository is made of 3 separate components: a phone app, its backend, and its security camera. The security camera ran on the DragonBoard 410c and python. The app is made entirely with Expo and React Native. The backend was powered by Stdlib, Algolia, and Google Cloud Services.",
+				"The security camera functioned by looking for faces. When it would see a face, it would upload an event to our database. Facial recognition was powered by Google Cloud Services.",
+				"The React Native app allowed users to post, browse, and rent storage units. Each rented unit had a status page which listed events from the security camera."
+			]
+		},
+		{
+			"title":"Tap ATM",
+			"subtitle":"RUHakcs | May 2018",
+			"image":"./assets/tap-atm.jpg",
+			"info":[
+				"Tap ATM allows you to access your bank accounts and enter all of your transaction details on a phone app, then withdraw/deposit your money from the ATM by tapping your phone to the machine's receiver. TAP ATM will improve the client experience by reducing wait times and increasing accessibility.",
+				"The app was created using Kotlin, the backend was created using python and flask"
+			]
+		},
+		{
+			"title":"Green Waste Bin",
+			"subtitle":"QHacks 2017 | February 2017",
+			"image":"./assets/green-g.jpg",
+			"info":[
+				"The Green Waste Bin is a waste bin that can sort the items that it is given. The current of the version of the bin can categorize the waste as garbage, plastics, or paper.",
+				"When garbage is placed on the bin, a picture of it is taken by the web cam. The picture is then sent to Indico(ML api) and labeled based on a collection that we trained. The raspberry pi then controls the stepper motors to drop the garbage in the right spot.",
+				"All of the images that were taken are stored in AWS buckets and displayed on a web app. On the web app, images can be relabeled and the Indico collection is retrained.",
+				"The physical parts of the waste bin are the Lego, 2 stepper motors, a raspberry pi, and a webcam. The software of the Green Waste Bin was entirely python. The web app was done in html and javascript."
+			]
+		},
+		{
+			"title":"The Voice of Reason",
+			"subtitle":"DeltaHacks 3 | January 2017",
+			"info":[
+				"An android based voice controlled budgeting system.",
+				"Kept track of budgets for different categories, and allowed users to quickly add purchases or retrieve budget information using simple voice commands",
+				"Feedback about spending habits was given after purchases or when requested",
+				"Built using Java and Android studio, combined with google's voice recognition api"
+			]
+		},
+		{
+			"title":"",
+			"subtitle":"",
+			"info":[
+				""
+			]
+		}
+	]
+}

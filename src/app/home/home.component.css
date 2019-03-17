@@ -1,4 +1,4 @@
-.title {
+/* .title {
     font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.1em;
@@ -8,15 +8,19 @@
     text-align: center;
     margin-left: -15px;
     margin-right:-15px;
+} */
+
+.jumbotron {
+    background: rgb(66 , 66, 66);
+    color: #fff;
 }
 
-
 .home-body {
-    margin:auto;
-    max-width: 70%
+    margin: auto;
+    max-width: 70%;
 }
 
 .card {
     max-width: 70%;
-    margin:auto;
+    margin: auto;
 }

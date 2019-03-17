@@ -1,0 +1,29 @@
+/* mat-divider {
+	margin-bottom:20px !important;
+} */
+
+.project-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.project-text {
+	padding:20px ;
+	vertical-align: middle;
+}
+
+.project-container {
+	display: flex
+}
+
+mat-card {
+	padding: 0px !important;
+}
+
+.project-section {
+	margin-bottom: 50px;
+}
+
+/* .project-divider {
+	margin-top:10px;
+} */

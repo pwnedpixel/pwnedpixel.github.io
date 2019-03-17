@@ -13,11 +13,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { SkillsComponent } from './home/skills/skills.component';
 import { WorkExperienceComponent } from './home/work-experience/work-experience.component';
 import { LinksComponent } from './home/links/links.component';
+import { MatDividerModule } from '@angular/material/divider';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-	declarations: [AppComponent, HomeComponent, AboutMeComponent, ProjectsComponent, SkillsComponent, WorkExperienceComponent, LinksComponent],
-	imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule, FormsModule, BrowserAnimationsModule, MatCardModule, MatIconModule],
-	providers: [],
-	bootstrap: [AppComponent]
+    declarations: [AppComponent, HomeComponent, AboutMeComponent, ProjectsComponent, SkillsComponent, WorkExperienceComponent, LinksComponent],
+    imports: [BrowserModule, MatDividerModule, AppRoutingModule, ReactiveFormsModule, FormsModule, BrowserAnimationsModule, MatCardModule, MatIconModule, HttpClientModule ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule {}
