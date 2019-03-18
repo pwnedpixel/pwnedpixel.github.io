@@ -1,7 +1,9 @@
 {
   "name": "andy-website",
   "version": "0.0.0",
+  "main":"server.js",
   "scripts": {
+    "start-server":"node server.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
