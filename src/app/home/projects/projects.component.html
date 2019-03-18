@@ -1,23 +1,14 @@
 <div class="section-title">Projects</div>
 <mat-card *ngIf="projects">
-    <div class="row project-section" *ngFor="let project of projects.projects; last as isLast; even as isEven">
-        <div class="project-image" *ngIf="!isEven" class="col-md-4">
-            <img class="project-image" *ngIf="!isEven" src="{{project.image}}" />
+    <div class="project-image-container" *ngFor="let project of projects.projects">
+        <label>{{project.title}}</label>
+        <img class="project-image" src="{{project.image}}" />
+        <div class="centered">
+            <ul>
+                <li *ngFor="let item of project.info">{{item}}</li>
+            </ul>
+            <a href="{{project.link}}" target="_blank"><button type="button" class="btn btn-outline-light more-info-button">More Info</button></a>
         </div>
-        <div class="col-md-8 project-container">
-			<div class="project-text">
-				<h4 class="card-title">{{ project.title }}</h4>
-				<h5>{{ project.subtitle }}</h5>
-				<mat-card-content>
-					<ul>
-						<li *ngFor="let item of project.info">{{ item }}</li>
-					</ul>
-				</mat-card-content>
-			</div>
-        </div>
-        <div *ngIf="isEven" class="col-md-4">
-            <img class="project-image" *ngIf="isEven" src="{{project.image}}" />
-        </div>
-        <!-- <mat-divider *ngIf="!isLast" class="project-divider divider" [inset]="true"></mat-divider> -->
     </div>
+
 </mat-card>

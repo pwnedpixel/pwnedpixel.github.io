@@ -2,28 +2,55 @@
 	margin-bottom:20px !important;
 } */
 
-.project-image {
-	max-width: 100%;
-	max-height: 100%;
+.project-image-container {
+    float: left;
+    max-width: 33%;
+    padding: 20px;
+    transition: padding 0.2s ease-in-out;
+    text-align: center;
+    position: relative;
 }
 
-.project-text {
-	padding:20px ;
-	vertical-align: middle;
-}
-
-.project-container {
-	display: flex
+.project-image-container:hover {
+    padding: 0px;
 }
 
 mat-card {
-	padding: 0px !important;
+    padding: 0px !important;
+    background: none;
 }
 
-.project-section {
-	margin-bottom: 50px;
+.project-image {
+    width: 100%;
 }
 
-/* .project-divider {
-	margin-top:10px;
-} */
+.project-image-container:hover .project-image {
+    filter: brightness(20%);
+}
+
+.projects {
+    display: flex;
+}
+
+.centered {
+    position: absolute;
+	top: 50%;
+	transform: translateY(calc(-50% + 20px));
+    color: white;
+	text-align: center;
+	padding-right:10%;
+}
+
+.project-image-container .centered {
+	transition: opacity 0s ease-out;
+    opacity: 0;
+}
+
+.project-image-container:hover .centered {
+	opacity: 1;
+	transition: opacity 0.1s ease-in 0.2s;
+}
+
+.more-info-button {
+	margin-left: 40px;
+}

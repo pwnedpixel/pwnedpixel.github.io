@@ -3,7 +3,7 @@
 @import "~font-awesome/css/font-awesome.css";
 
 body {
-    background: rgb(255, 255, 255);
+    background: rgb(240, 240, 240);
     margin: 0px;
     color: rgb(66, 66, 66);
 }
@@ -24,7 +24,7 @@ mat-card {
 }
 
 .mat-card {
-    background: rgb(255, 255, 255);
+    background: rgb(240, 240, 240);
     color: rgb(0,0,0);
     border: none;
     box-shadow: none !important;

@@ -17,7 +17,6 @@ export class ProjectsComponent implements OnInit {
 
   buildProjects(data) {
     this.projects = data;
-    console.log(this.projects);
   }
 
   constructor(private http: HttpClient) {
