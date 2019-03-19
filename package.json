@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "github-deploy": "ng build --prod --base-href https://www.akeech.com/ && ngh"
+    "github-deploy": "ng build --prod --base-href https://www.akeech.com/ && ngh --cname=www.akeech.com"
   },
   "private": true,
   "dependencies": {
