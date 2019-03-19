@@ -1,9 +1,9 @@
 {
   "name": "andy-website",
   "version": "0.0.0",
-  "main":"server.js",
+  "main": "server.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "ng": "ng",
     "build": "ng build",
     "test": "ng test",
@@ -42,6 +42,7 @@
     "@types/node": "~8.9.4",
     "bootstrap": "^4.3.0",
     "codelyzer": "~4.2.1",
+    "cors": "^2.8.5",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",

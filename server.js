@@ -1,15 +1,22 @@
-const express = require("express");
-const os = require("os");
+const express = require('express');
+const path = require('path');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
 const app = express();
-var bodyParser = require("body-parser");
-const format = require("util").format;
-var uuid = require("uuid");
+const port = process.env.port || 3000;
 
+app.use(cors());
+
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
-var port = process.env.PORT || 3000;
+app.use(express.static(path.join(__dirname, 'dist')));
 
-// This will serve the webpage
-app.use(express.static('./dist/andy-website'));
-app.listen(port, () => console.log("Listening on port " + port));
+app.get('/', (req,res) => {
+    res.send("Invalid page");
+})
+
+app.listen(port, () => {
+    console.log(`Starting the server at port ${port}`);
+});
