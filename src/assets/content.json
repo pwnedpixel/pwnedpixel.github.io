@@ -71,7 +71,7 @@
 			"image": "./assets/mypaint-small.png",
 			"link": "https://github.com/pwnedpixel/myPaint",
 			"info": [
-				"A Paint application that handles different shapes, freform and colours",
+				"A Paint application that handles different shapes, freeform and colours",
 				"Can group shapes together or undo/redo actions"
 			]
 		}
