@@ -1,0 +1,79 @@
+{
+	"projects":[
+		{
+			"title":"Braille Printer",
+			"subtitle":"Hackwestern 3 | 2016",
+			"image":"./assets/printer-small.png",
+			"link":"https://devpost.com/software/braille-printer",
+			"info":[
+				"Low cost braille printer that takes text or images as input and prints out the braille onto sheets of paper",
+				"Built with: raspberry pi B+, Python, transistors, diodes and solenoids/servo motor."
+			]
+		},
+		{
+			"title":"Depository Repository",
+			"subtitle":"Hackwestern 5 | 2018",
+			"image":"./assets/repo-small.png",
+			"link": "https://devpost.com/software/depository-repository",
+			"info":[
+				"Depository Repository is an Airbnb style app that allows users to rent storage space from each other.",
+				"3 separate components: a phone app, its backend, and its security camera. The security camera ran on the ",
+				"Built with: DragonBoard 410c, Python, Stdlib, Algolia, and Google Cloud."
+			]
+		},
+		{
+			"title":"Tap ATM",
+			"subtitle":"RUHakcs | May 2018",
+			"image":"./assets/tap-small.png",
+			"link": "https://devpost.com/software/tap-atm",
+			"info":[
+				"Tap ATM allows you to access your bank accounts and enter all of your transaction details on a phone app, then withdraw/deposit your money from the ATM by tapping your phone to the machine's receiver.",
+				"The app was created using Kotlin, the backend was created using python and flask"
+			]
+		},
+		{
+			"title":"Green Waste Bin",
+			"subtitle":"QHacks 2017 | February 2017",
+			"image":"./assets/green-g-small.png",
+			"link": "https://devpost.com/software/green-waste-bin",
+			"info":[
+				"The Green Waste Bin is a device bin that can categorize waste as garbage, plastics, or paper.",
+				"Uses ML and image recognition to classify garbage. The stepper motors then drop the garbage in the right spot.",
+				"Built with: Lego, stepper motors, raspberry pi, webcam, python, AWS, HTML, JS"
+			]
+		},
+		{
+			"title":"The Voice of Reason",
+			"subtitle":"DeltaHacks 3 | January 2017",
+			"image":"./assets/voice-small.png",
+			"link": "https://devpost.com/software/the-voice-of-reason",
+			"info":[
+				"An android based voice controlled budgeting system.",
+				"Kept track of budgets for different categories, and allowed users to quickly retrieve budget information using voice commands",
+				"Feedback about spending habits was provided",
+				"Built using Java and Google's voice recognition API"
+			]
+		},
+		{
+			"title": "Theia",
+			"subtitle": "ConUHacks II | January 2017",
+			"image": "./assets/theia-small.jpg",
+			"link": "https://devpost.com/software/theia-o02nk8",
+			"info": [
+				"A tool for the visually impaired that describes the world around them.",
+				"Uses a combination of image recognition libraries to describe a scene out loud",
+				"Built using Clarifai, icrosoft Cognitive Service's Computer Vision, Azure storage, python"
+			]
+		},
+		{
+			"title": "MyPaint",
+			"subtitle": "Personal Project",
+			"image": "./assets/mypaint-small.png",
+			"link": "https://github.com/pwnedpixel/myPaint",
+			"info": [
+				"A Paint application that handles different shapes, freeform and colours",
+				"Can group shapes together or undo/redo actions"
+			]
+		}
+	]
+}
