@@ -53,6 +53,27 @@
 				"Feedback about spending habits was provided",
 				"Built using Java and Google's voice recognition API"
 			]
+		},
+		{
+			"title": "Theia",
+			"subtitle": "ConUHacks II | January 2017",
+			"image": "./assets/theia-small.jpg",
+			"link": "https://devpost.com/software/theia-o02nk8",
+			"info": [
+				"A tool for the visually impaired that describes the world around them.",
+				"Uses a combination of image recognition libraries to describe a scene out loud",
+				"Built using Clarifai, icrosoft Cognitive Service's Computer Vision, Azure storage, python"
+			]
+		},
+		{
+			"title": "MyPaint",
+			"subtitle": "Personal Project",
+			"image": "./assets/mypaint-small.png",
+			"link": "https://github.com/pwnedpixel/myPaint",
+			"info": [
+				"A Paint application that handles different shapes, freform and colours",
+				"Can group shapes together or undo/redo actions"
+			]
 		}
 	]
 }
