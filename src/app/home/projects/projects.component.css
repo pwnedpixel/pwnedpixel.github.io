@@ -37,7 +37,7 @@ mat-card {
 	transform: translateY(calc(-50% + 20px));
     color: white;
 	text-align: center;
-	padding-right:10%;
+	padding-right:5%;
 }
 
 .project-image-container .centered {
@@ -51,5 +51,5 @@ mat-card {
 }
 
 .more-info-button {
-	margin-left: 40px;
+	margin-left: 35px;
 }
