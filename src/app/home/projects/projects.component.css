@@ -4,7 +4,6 @@
 
 .project-image-container {
     float: left;
-    max-width: 33%;
     padding: 20px;
     transition: padding 0.2s ease-in-out;
     text-align: center;
