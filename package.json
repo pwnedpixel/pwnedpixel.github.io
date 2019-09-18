@@ -27,14 +27,15 @@
     "@ngrx/core": "^1.2.0",
     "@ngrx/effects": "^6.1.0",
     "@ngrx/store": "^6.1.0",
+    "body-parser": "^1.18.3",
     "core-js": "^2.5.4",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "font-awesome": "^4.7.0",
-    "body-parser": "^1.18.3",
     "hammerjs": "^2.0.8",
+    "ngh": "^0.2.12",
     "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26",
-    "cors": "^2.8.5"
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.12.2",
